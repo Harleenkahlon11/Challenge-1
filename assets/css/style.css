@@ -7,38 +7,34 @@
 body {
     background-color: #d9dcd6;
 }
-.header {
+header {
     padding: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 
 }
-
-.nav{
-    background-color: #2A607C;
-}
-
-
 h1{
     float: left;
     color: white;
  width: auto;
- font-size: 50px;
+
 }
- h1 span{
+h1 span{
     color: #D9DCD6;
  }
 
+nav{
+    background-color: #2A607C;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-size: large;
+  
 
 }
-
 li {
   float: right ;
 }
@@ -51,7 +47,7 @@ li a {
   text-decoration: none;
 }
 
-.main img{
+main img{
     display: block;
     width: 100%;
     height: 800px;
@@ -62,11 +58,11 @@ li a {
     display: flex;
 }
 
-.section{
+section{
     display: flex;
 } 
 
-.aside{
+aside{
     float: right;
      width: 50%;
     height: 100%;
@@ -233,14 +229,14 @@ li a {
     margin: 10px auto;
     max-width: 150px;
 }
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
 
